@@ -1,0 +1,130 @@
+/*
+Theme Name: Ultimate Auction Pro Vehicle Software
+Theme URI: https://getultimateauction.com/
+Author: Nitesh Singh
+Theme URI: https://getultimateauction.com/
+Author URI: https://getultimateauction.com/
+Version: 1.0.0
+Description:  Ultimate Auction Pro Vehicle Software
+Template: ultimate-auction-pro-software
+License: GNU General Public License v3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: ultimate-auction-pro-software
+*/
+ 
+/* Add Custom CSS HERE */
+   .c-uder-detail-head img.comment-user-img {
+    width: 27px !important;
+	   height: 27px!important;
+}
+.custom-login-btn  a.btn-custom {
+    margin: 10px;
+    display: inline-block;
+}
+span.woo-ua-current.auction {
+    display: none;
+}
+
+.btn-custom {
+    color: #fff;
+    padding: 11px 25px;
+    font-size: 1rem;
+    line-height: 20px;
+    border-radius: 6px;
+    background-color: var(--wp--custom-primary-link-color);
+    border-color: var(--wp--custom-primary-link-color);
+    font-weight: 500;
+    padding: 15px 50px 16px 50px;
+    margin: 0 12px;
+}
+a.whatsapp-block__button {
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 23px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    padding: 15px 25px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+ .single-product .bid-inf-box .bid-status-msg-green {
+    border-color: #02ec88;
+    border: 2px solid #02ec88;
+    background: #02ec88;
+    color: #fff;
+    padding: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	border-radius: 4px;
+}
+ .single-product .bid-inf-box .bid-status-msg-red {
+    border-color: #e53529;
+    border: 2px solid #e53529;
+    color: #fff;
+    padding: 8px;
+    margin-top: 20px;
+    background: #e53529;
+    margin-bottom: 10px;
+	border-radius: 4px;
+}
+.success-msg {
+    color: #02ec88 !important;
+}
+@media only screen and (max-width: 1023px){
+    .single_pro_right .spr_in_main {
+            position: fixed !important;
+    z-index: 99999;
+    background-color: #fff;
+    width: 100%;
+    height: 250px;
+    overflow: scroll;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    padding: 10px 20px 20px 20px;
+    top: auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+.Current-bid-detail, .Next-bid-detail {
+    margin-top: 0;
+    padding-top: 0;
+}
+.bid-inf-box .Current-bid-detail h5 .woocommerce-Price-amount {
+    font-size: 26px !important;
+    line-height: normal !important;
+}
+.two-attr-block {
+    flex-direction: row!important;
+}
+.two-attr-block button.black_bg_btn {
+ 
+    margin-left: 10px!important;
+    margin-top: 0!important;
+}
+.two-attr-block input[type="number"] {
+    width: 120px;
+    border: 1px solid #000;
+}
+.icon-with-text-inner {
+    margin-top: 0!important;
+}
+.bid-inf-box {
+    margin-top: 5px!important;
+	margin-bottom:0px!important;
+}
+	.single-product footer {
+    padding-bottom: 260px;
+}
+	.cky-revisit-bottom-left {
+    bottom: 7px!important;
+    left: auto!important;
+    right: 7px!important;
+}
+	.bid-table-box {
+    display: none ! Important;
+}
+}
+.header-layout-2 ul.top-right-menu-ul.show-menu{z-index:9;}
