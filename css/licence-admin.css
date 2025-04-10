@@ -1,0 +1,341 @@
+
+	.wrapper-tootltip {
+							text-transform: uppercase;
+							/* background: #ececec; */
+							color: #555;
+							cursor: help;
+							font-size: 12px;
+							padding: 11px 14px;
+							position: relative;
+							text-align: left;
+							width: 10px;
+							-webkit-transform: translateZ(0);
+							/* webkit flicker fix */
+							-webkit-font-smoothing: antialiased;
+							/* webkit text rendering fix */
+							width: 100%;
+						}
+
+						.wrapper-tootltip .tooltip {
+							background: #1d2327;
+							bottom: 100%;
+							color: #fff;
+							display: block;
+							left: -15px;
+							/* margin-bottom: 15px; */
+							opacity: 0;
+							padding: 8px 10px;
+							pointer-events: none;
+							position: absolute;
+							width: auto;
+							-webkit-transform: translateY(10px);
+							-moz-transform: translateY(10px);
+							-ms-transform: translateY(10px);
+							-o-transform: translateY(10px);
+							transform: translateY(10px);
+							-webkit-transition: all .25s ease-out;
+							-moz-transition: all .25s ease-out;
+							-ms-transition: all .25s ease-out;
+							-o-transition: all .25s ease-out;
+							transition: all .25s ease-out;
+							-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+							-moz-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+							-ms-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+							-o-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+							box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.28);
+						}
+
+						/* This bridges the gap so you can mouse into the tooltip without it disappearing */
+						.wrapper-tootltip .tooltip:before {
+							bottom: -20px;
+							content: " ";
+							display: block;
+							height: 20px;
+							left: 0;
+							position: absolute;
+							width: 100%;
+						}
+
+						/* CSS Triangles - see Trevor's post */
+						.wrapper-tootltip .tooltip:after {
+							border-left: solid transparent 10px;
+							border-right: solid transparent 10px;
+							border-top: solid #1d2327 10px;
+							bottom: -10px;
+							content: " ";
+							height: 0;
+							left: 40px;
+							margin-left: -13px;
+							position: absolute;
+							width: 0;
+						}
+
+						.wrapper-tootltip:hover .tooltip {
+							opacity: 1;
+							pointer-events: auto;
+							-webkit-transform: translateY(0px);
+							-moz-transform: translateY(0px);
+							-ms-transform: translateY(0px);
+							-o-transform: translateY(0px);
+							transform: translateY(0px);
+						}
+
+						/* IE can just show/hide with no transition */
+						.lte8 .wrapper-tootltip .tooltip {
+							display: none;
+						}
+
+						.lte8 .wrapper-tootltip:hover .tooltip {
+							display: block;
+						}
+
+	.input-button p.submit {
+		margin: 0 0 0 10px;
+    padding: 0;
+}
+.box.heading-premium-modules h3 {
+    display: block;
+    text-align: center;
+}
+.uat-form-activation-msg {
+    margin: 10px 0 0px 0!important;
+}
+.input-button p.submit input#submit {
+    height: 50px;
+    padding: 10px 40px!important;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+}
+	.input-button {
+    margin-top: 15px;
+	margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.plugin-banners.row {
+    display: flex;
+    margin: 1.7em -15px 0 -15px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+	justify-content: center;
+}
+.box.heading-premium-modules {
+    width: 100%;
+    padding-left: 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px 0 0 0;
+
+}
+.box.heading-premium-modules h3 {
+    margin: 0 0 20px 0;
+}
+.plugin-banners.row .col-xs-3 {
+    width: 23.2%;
+    max-width: 100%;
+    margin: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.plugin-banners.row .col-xs-3 .block-links{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	left: 0;right: 0;bottom: 0;top: 0;
+}
+.plugin-box-block {
+    /* padding: 20px; */
+
+    display: flex;
+	flex-direction: column;
+}
+.heading-text-b, .availablein-for-use {
+    margin: 0 12px 12px 0;
+    width: auto;
+    padding: 7px 34px 4px;
+}
+.heading-text-b h3, .heading-text-b h3 a {
+    font-size: 1.5rem;
+    display: block;
+    letter-spacing: .08px;
+    color: #000!important;
+    font-weight: 600;
+    line-height: 2.4rem;
+    margin: 0 0 20px;
+}
+.heading-text-b p{
+
+    margin: 0px 0;
+    word-wrap: break-word;
+    font-size: 17px;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #758598;
+}
+.doc-link a {
+    font-size: 13px;
+}
+.switch {
+  display: inline-block;
+  height: 28px;
+  position: relative;
+  width: 55px;
+}
+
+.switch .swich-input {
+  display:none;
+}
+
+.slider-s {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider-s:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 20px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 20px;
+}
+
+.swich-input:checked + .slider-s {
+  background-color: #66bb6a;
+}
+
+.swich-input:checked + .slider-s:before {
+  transform: translateX(26px);
+}
+
+.slider-s.round-s {
+  border-radius: 34px;
+}
+
+.slider-s.round-s:before {
+  border-radius: 50%;
+}
+.availablein-for-use .swich-click {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    height: 100%;
+}
+
+.d-flex-form {
+    flex-direction: column;
+}
+.input-button {
+    margin-top: 15px;
+}
+.icon-blocks {
+    margin-bottom: 23px;
+}
+.availablein-for-use h4 {
+    margin: 0 0 10px 0;
+}
+span.avail-Professional{
+	color: #08aca2;
+    background: rgba(19,174,164,.1);
+}
+span.avail-Starter{
+    color: #ffb420;
+    background: rgba(255,180,32,.1);
+}
+span.avail-Business{
+    color: #ef3917;
+    background: rgba(239,57,23,.1);
+}
+span.avail-All-Access{
+    color: #174bef;
+    background: rgba(23,52,239,.1);
+}
+span.avail-Professional, span.avail-Starter, span.avail-Business, span.avail-All-Access{
+	font-size: 14px;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0 10px 10px 0px;
+    padding: 5px 15px;
+    border-radius: 11.5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+ul#filterOptions li a {
+    display: inline-block;
+    font-size: 18px;
+    color: #8f8f8f;
+    letter-spacing: .16px;
+    text-align: center;
+    line-height: 13px;
+    padding: 23px 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s linear 0s;
+}
+ul#filterOptions {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul#filterOptions li.active a {
+    background: #fff;
+    box-shadow: 7px 14px 65px 0 rgb(0 0 0 / 10%);
+    color: #5159a4;
+    font-weight: 600;
+}
+@media only screen and (max-width: 1366px) {
+.plugin-banners.row .col-xs-3{
+	width: 30%;
+}
+.heading-text-b h3, .heading-text-b h3 a {
+    font-size: 19px;
+	margin-bottom: 0;
+}
+.heading-text-b p{font-size: 15px;}
+.heading-text-b, .availablein-for-use {
+    margin: 0 0px 8px 0;
+    padding: 7px 12px 4px;
+}
+
+}
+@media only screen and (max-width: 1279px) {
+.plugin-banners.row .col-xs-3 {
+    width: 40%;
+}
+}
+@media only screen and (max-width: 639px) {
+.plugin-banners.row .col-xs-3 {
+    width: 90%;
+}
+}

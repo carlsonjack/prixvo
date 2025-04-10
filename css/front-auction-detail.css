@@ -1,0 +1,684 @@
+ 
+span.be-lot-seller-info__flag-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
+.contry-img-with-text span.contry-name {
+    font-weight: 500;
+    padding: 0 0 0 8px;
+    font-size: 17px;
+}
+.contry-img-with-text {
+    background-color: #d3d3d3;
+    padding: 1px 5px;
+    margin: -10px 5px 0 0;
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+.online-d-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap
+}
+.single-product .detail-icon-box .like-product a i.far.fa-heart {
+    color: var(--wp--custom-primary-link-color);
+    font-size: 20.5px;
+}
+.squar-tag span.tag-text {
+    border: 2px solid #939393;
+    padding: 5px 10px;
+    margin: 0 4px 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    text-transform: capitalize
+}
+
+.text-decription p {
+    margin: 0
+}
+.read-more-content{
+	display: none;
+	padding-top: 22px;
+}
+.read-more{
+	display: inline-block;
+	margin-top: 8px;
+}
+.timeline-info {
+	position: relative;
+	background: #f3f1f1;
+	padding: 24px 20px 18px;
+	margin-bottom: 12px;
+	border: 1px solid #f3f1f1;
+	border-radius: 8px;
+	margin-left: 54px;
+}
+.product-detail-row .product-list-sec {
+    margin: 0 -20px;
+}
+.product-detail-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-left-block {
+    width: 66.67%;
+    max-width: 100%;
+    position: relative;
+}
+.product-right-block {
+    width: 33.33%;
+    max-width: 100%;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+}
+/* .spr_inner.first-block {
+    padding: 25px 20px 0px 20px;
+    border: 1px solid #d2d9e1;
+    border-top: 3px solid var(--wp--custom-primary-link-color);
+    border-radius: 0px;
+    margin-bottom: 30px;
+} */
+.bl_seller_name {
+    padding-bottom: 15px;
+}
+.s_badges span {
+    font-weight: 500;
+    padding: 4px 5px 4px 5px;
+    border: 2px solid rgba(34,34,34,.16);
+    color: #565b60;
+    display: inline-block;
+    line-height: normal;
+    font-size: 14px;
+}
+.spr_inner.second-block {
+    font-weight: 400;
+    padding: 32px 24px;
+    border: 1px solid #d2d9e1;
+    margin: 30px 0 0 0;
+}
+.icon-with-text {
+    padding: 0px 20px 30px 20px;
+}
+.icon-with-text-inner {
+    display: flex;
+    align-items: flex-start;
+}
+.icon-with-text-inner img {
+    width: 16px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.icon-with-text-inner span {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 5px;
+    color: #858383;
+    letter-spacing: 0.7px;
+}
+.icon-with-text-inner {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.bid-table-box h3 {
+    font-size: 20px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.Catabooks-guarantee-box span{color: #fff;}
+.Catabooks-guarantee-box {
+    background-color: var(--light-blue);
+    padding: 20px;
+    border: 0px solid #adadad;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.timer-closes-text {
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+    color: #000;
+    background-color: transparent;
+    border-bottom: none;
+}
+.auction-countdown-check {
+    padding: 0 0 0 10px;
+    border: inherit;
+    border-radius: inherit;
+    margin: inherit;
+    text-align: inherit;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    width: inherit;
+}
+.bid_status {
+    padding: 0 0 30px;
+}
+.bid_status label {
+    font-size: 70%;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: block;
+    line-height: normal;
+    padding: 0 0 10px;
+    margin: 0;
+}
+.bid_status h2 {
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0 0 4px;
+}
+.bid_status p {
+    font-size: 16px;
+    color: #919397;
+    font-weight: 700;
+    margin: 0;
+}
+.lot-close-detail-date {
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.bid-price-selection.place-bid-sec {
+    margin-top: 0px;
+}
+ 
+.bidding-form-and-btn .bid-price-selection.place-bid-sec .three-btn, .bidding-form-and-btn .two-attr-block {
+    margin-bottom: 20px;
+}
+.bid-price-selection.place-bid-sec .three-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+.bidding-form-and-btn .quick-bid-btns .quick_bid_button_one, .bidding-form-and-btn .blf_btn .bid_btn {
+    width: 32%;
+    border: 1px solid #d2d9e1;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    padding: 13px 10px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 0;
+    background: var(--wp--custom-primary-link-color);
+    font-family: inherit;
+    transition: all 0.5s;
+    font-size: 16px;
+    cursor: pointer;
+}
+.blf_input {
+    background: #f0f1f4;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    border: 2px solid #d5d5d5;
+    color: #595959;
+}
+.sy_sig {
+    padding: 0 8px 0 20px;
+}
+.blf_input input {
+    border: none;
+    background: transparent;
+    height: 45px;
+    width: 100%;
+    padding: 0 20px 0 0;
+    font-family: 'Mulish', sans-serif;
+}
+.blf_btn {
+    display: flex;
+    margin: 0 0 10px 0;
+    justify-content: space-between;
+}
+.bidding-form-and-btn .blf_btn .bid_btn {
+    width: 49%;
+    margin: 0;
+    background-color: transparent;
+    border: 2px solid #d5d5d5;
+    color: var(--wp--custom-primary-link-color);
+}
+.bidding-form-and-btn .blf_btn .fill_btn {
+    background: var(--wp--custom-primary-link-color);
+    color: #fff;
+    border-color: transparent;
+}
+div#bid_sec {
+    background-color: transparent;
+}
+.Seller-pro-photo P{margin-bottom: 0;}
+.seller-pic{
+    width: 100px;padding-right: 25px;
+}
+.Seller-pro-photo {
+    display: none;
+    margin-bottom: 30px;
+    justify-content: start;
+}
+
+.single-product .like-count.detail-icon-box .share-icon {
+     
+    border: none;
+    margin-left: 10px;
+    padding: 7.5px 15px;
+    z-index: 9;
+}
+
+.single-product .detail-icon-box .like-product, .single-product .like-count.detail-icon-box .share-icon {
+    border: 1px solid #f2f2f2;
+}
+.seller-pic img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: top center;
+}
+.prev-bid-table {
+    background-color: var(--white);
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0 0px 0;
+}
+.prev-bid-table table {
+    margin-top: 20px;
+}
+.prev-bid-table table td, .prev-bid-table table th {
+    border: none;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+    color: #727272;
+}
+.prev-bid-table tr:nth-child(even) {
+    background-color: transparent;
+    color: inherit;
+}
+.guar-heading-with-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.Catabooks-guarantee-box span {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+.guar-heading-with-icon img {
+    width: 40px;
+}
+.Catabooks-guarantee-box ul li {
+    color: #fff;
+    padding: 0 0 15px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+.Catabooks-guarantee-box ul {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.ask-quastion-block {
+    font-weight: 400;
+    padding: 20px 24px;
+    border: 1px solid #d2d9e1;
+    margin: 30px 0 0 0;
+}
+button.ask-quaastion-btn {
+    border: none;
+    background-color: transparent;
+    display: block;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1em;
+}
+.d-flex-center {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+    .google-translate-link a span{
+padding-left: 10px;
+    }
+.u-m-b-m {
+    margin-bottom: 1rem;
+}
+.be-translation-button__link {
+    cursor: pointer;
+    display: inline-flex;
+    user-select: none;
+}
+.be-translation-button__link svg {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    top: 5px;
+    right: -3px;
+}
+.be-translation-button__link svg path {
+    fill: var(--wp--custom-primary-link-color);
+}
+.u-m-l-xs {
+    margin: 5px 10px;
+    color: var(--wp--custom-primary-link-color);
+}
+.u-typography-h7 {
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 1.2666666667;
+    color: var(--wp--custom-primary-link-color);
+}
+.u-typography-body-s {
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.2307692308;
+    color: #727272;
+}
+.description-text p {
+    margin: 0 0 15px;
+    font-size: 1.0625rem;
+    font-weight: 400;
+    line-height: 1.4705882353;
+}
+.read-more:after {
+    content: "";
+    position: absolute;
+    right: 15px;
+    z-index: 11;
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid var(--white);
+    border-left: 2px solid var(--white);
+    top: 15px;
+    transform: rotate(225deg);
+}
+.read-more {
+    display: inline-block;
+    margin-top: 8px;
+    color: var(--white);
+    background-color: var(--wp--custom-primary-link-color);
+    padding: 10px 30px 10px 20px;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: .9375rem;
+    font-weight: 500;
+    line-height: 1.2666666667;
+    border: none;
+}
+.gray-box {
+    background-color:transparent;
+    padding: 0px;
+    margin: 20px 0 40px 0;
+}
+.gray-box .info-row .col-3{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.gray-box .info-row .col-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+.gray-box .info-row .col-2{
+    width: 50%;
+}
+.gray-box .info-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.info-row-text label.info-lable {
+    margin-bottom: 9px;
+    color: #6c6565;
+    text-transform: uppercase;
+    font-size: .6875rem;
+    font-weight: 400;
+    letter-spacing: .0625rem;
+    line-height: 1.1818181818;
+}
+.info-row-text label.info-lable-ans {
+    color: #000;
+    font-weight: 500;
+    z-index: 1;
+    font-size: 16px;
+    line-height: 1.2666666667;
+    display: inline-flex;
+}
+.be-lot-specification__collections-icon {
+    height: 0.625rem;
+    width: 0.375rem;
+}
+
+
+/* page heading css */
+.left-pro-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left-pro-heading h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+a.btn-books {
+    background-color:  var(--wp--custom-primary-link-color);
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+.seller-product-slider img {
+    width: 100%;
+}
+.like-count {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px 15px -18px 0px;
+    position: relative;
+}
+.like-count button.product-details-like {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 19px;
+    padding: 5px 7px;
+    color: #6a6868;
+    cursor: pointer;
+    box-shadow: 0 19px 38px rgb(0 0 0 / 25%), 0 15px 12px rgb(0 0 0 / 38%);
+}
+/* page heading css */
+
+
+
+
+
+
+
+
+
+.prev-bid-table table td img {
+    width: 15px;
+    margin: 3px 7px 0 0;
+}
+
+.bl_summary {
+    padding: 30px 0;
+}
+.bl_summary ul {
+    padding: 0;
+    margin: 0;
+}
+.bl_summary ul li {
+    list-style: none;
+    padding: 0 0 10px 0;
+    display: inline-flex;
+    align-items: center;
+    color: #727272;
+    font-size: 14px;
+    width: 100%;
+}
+.bl_summary ul li img {
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    opacity: 0.6;
+}
+
+.bid-inf-box {
+    margin-top: 25px;
+    padding: 10px 20px 20px 20px;
+    border: 1px solid #d2d9e1;
+    border-top: 3px solid var(--wp--custom-primary-link-color);
+}
+
+.bid-inf-box .bid-status-msg-green {
+    border-color: green;
+    border: 2px solid green;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.bid-inf-box .bid-status-msg-red {
+    border-color: red;
+    border: 2px solid red;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+.bid-inf-box .Current-bid-detail h5 strong.current-bid-text,
+.bid-inf-box .Current-bid-detail h5 strong.starting-bid-text {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.Current-bid-detail{flex-direction:column;}
+.bid-inf-box .Current-bid-detail h5 .woocommerce-Price-amount {
+    font-weight: bold;
+    font-size: 34px;
+    margin: 0;
+    line-height: 75px;
+}
+span.auction-reserve-price-text {
+    font-weight: bold;
+    color: #9d9d9d;
+    margin-bottom: 30px;
+}
+.estimate-values h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bid-price-selection.place-bid-sec .bid-price-l {
+    padding: 10px 0 0px 0;
+    display: none;
+}
+.bid-price-selection.place-bid-sec .three-btn, .two-attr-block, .two-attr-block {
+    margin-bottom: 10px;
+}
+.icon-with-text {
+    padding: 0;
+    margin: 10px 0 20px 0;
+}
+ 
+ table.auction-history-table td,
+ .shop_table.shop_table_responsive td,
+ table.auction-history-table th,
+ .shop_table.shop_table_responsive th {
+    border: 1px solid transparent;
+    text-align:left;
+    padding: 8px;
+    font-size: 12px;
+    border: none;
+}
+.woocommerce table.shop_table td, .woocommerce table.shop_table th {
+    padding: 4px 5px!important;
+    font-weight: 200!important;
+}
+/* .woocommerce table.shop_table {
+    border-radius: 0;
+    border: 1px solid #f2f2f2!important;
+    padding: 8px;
+} */
+/* .shop_table.shop_table_responsive, 
+ 
+.woocommerce table.shop_table td, 
+.woocommerce table.shop_table th{
+    border: none!important;
+} */
+.shop_table.shop_table_responsive tr:nth-child(even),table.auction-history-table tr:nth-child(even) {
+    background-color: transparent;
+    color: #000;
+}
+.read-more.active:after {
+     
+    top: 19px;
+    transform: rotate(45deg);
+}
+div#descriptionText {
+    height: 160px;
+    overflow: hidden;
+}
+.lot-close-detail-date h5 {
+    margin: 0;
+    padding-left: 30px;
+}
+
+.uat-bid-summery{
+    margin-top: 10px;
+}
+
+.lot-close-detail-date{
+    text-align: center;
+}
+.lot-close-detail-date h5{
+    padding-left: 0;
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+    .product-left-block {
+        width: 100%;
+        }
+        .product-right-block {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 0;
+        padding-bottom: 30px;
+        margin-top: 20px;
+    }
+     
+        .left-pro-heading h1 {
+            font-size: 1.3em;
+        }
+        .product-left-block {
+            width: 100%!important;
+            margin-bottom: 30px;
+        }
+        
+        }
